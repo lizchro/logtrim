@@ -8,7 +8,10 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    if: github.repository == 'jaschro/logtrim'
+    # Opt-in: this job is skipped unless you set the repository variable
+    # GARMIN_ENABLED to 'true' and add GARMIN_TOKENS + GARMIN_DISPLAY_NAME secrets
+    # (Settings -> Secrets and variables -> Actions). See SETUP.md, "Garmin integration".
+    if: vars.GARMIN_ENABLED == 'true'
     permissions:
       contents: write        # needed to commit garmin-recent.json back to the repo
 
