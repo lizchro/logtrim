@@ -15,6 +15,11 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # Opt-in: this job is skipped unless you set the repository variable
+    # GARMIN_ENABLED to 'true' and add a GARMIN_TOKENS secret
+    # (Settings -> Secrets and variables -> Actions).
+    # See cardio-minutes-pipeline/CARDIO-MINUTES-SETUP.md for the full setup.
+    if: vars.GARMIN_ENABLED == 'true'
     steps:
       - uses: actions/checkout@v4
 
@@ -27,7 +32,7 @@ jobs:
 
       - name: Update cardio-minutes.csv
         env:
-          GARMIN_TOKENS: ${{ secrets.GARMIN_MINUTES }}
+          GARMIN_TOKENS: ${{ secrets.GARMIN_TOKENS }}
         run: python cardio-minutes-pipeline/cardio_minutes.py
 
       - name: Commit if changed
