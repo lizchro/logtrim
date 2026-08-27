@@ -135,13 +135,36 @@ Now you can tell Claude "plan me a workout for tomorrow and push it to my app," 
 
 ### Garmin integration (advanced, optional)
 
-If you have a Garmin watch, the repo includes scripts (`scripts/garmin_sync.py` and `.github/workflows/garmin-sync.yml`) that automatically pull your daily stats (steps, sleep, heart rate zones, training readiness) into the repo on a schedule, where Claude can read them for recovery-aware coaching. This requires:
+If you have a Garmin watch, the repo ships with **two** scheduled GitHub Actions
+pipelines that pull your Garmin data into your fork, where the app and Claude can
+use it:
 
-1. Running `scripts/garmin_auth_setup.py` locally once to generate Garmin auth tokens
-2. Adding `GARMIN_TOKENS` and `GARMIN_DISPLAY_NAME` as repository secrets (repo **Settings → Secrets and variables → Actions**)
-3. Editing the `if: github.repository ==` line in `.github/workflows/garmin-sync.yml` to match your fork
+- **Garmin Sync** (`scripts/garmin_sync.py`, every 3 hours) — daily stats like
+  steps, sleep, heart rate zones, and training readiness, written to
+  `garmin-recent.json`. Useful for recovery-aware coaching.
+- **cardio-minutes** (`cardio-minutes-pipeline/`, daily) — per-minute heart-rate
+  data from every activity, written to `cardio-minutes.csv`. Useful for
+  time-in-zone analysis.
 
-This is the fiddliest part of setup — feel free to skip it, or ask Claude to walk you through it once your Project is set up.
+Both are **off by default** — they're skipped until you opt in, so if you don't
+use Garmin you can ignore this section entirely.
+
+To enable them:
+
+1. Generate your Garmin auth token blob (one-time, on your computer):
+   `pip install garminconnect`, then `python cardio-minutes-pipeline/garmin_login.py`
+   (enter your Garmin login; it prints a base64 string — copy it)
+2. In your fork: **Settings → Secrets and variables → Actions**
+   - **Secrets tab:** add `GARMIN_TOKENS` = the base64 string.
+     For Garmin Sync, also add `GARMIN_DISPLAY_NAME` = your Garmin Connect
+     display name (find it in your Garmin Connect profile URL).
+3. **Variables tab:** add `GARMIN_ENABLED` = `true`. This one variable switches
+   both workflows on. Remove it (or set it to anything else) to switch them off.
+4. Kick off a first run of each from the **Actions** tab (Run workflow), or just
+   wait for the schedule.
+
+For more detail on the per-minute pipeline (CSV format, backfilling history,
+token renewal), see `cardio-minutes-pipeline/CARDIO-MINUTES-SETUP.md`.
 
 ---
 
