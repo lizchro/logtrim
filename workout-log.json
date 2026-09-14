@@ -1,0 +1,20 @@
+[
+  {
+    "machineId": "walk",
+    "machine": "Walk",
+    "gym": "Common Machines",
+    "gymId": "generic",
+    "room": "Outdoor Activities",
+    "roomId": "outdoor-activities",
+    "date": "2026-09-14",
+    "datetime": "2026-09-14 06:07:36 PM",
+    "set": 1,
+    "weight": null,
+    "reps": null,
+    "duration": 1,
+    "level": null,
+    "incline": null,
+    "hr": null,
+    "notes": ""
+  }
+]
