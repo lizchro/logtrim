@@ -1,0 +1,135 @@
+{
+  "id": "mb-jcc",
+  "name": "MB JCC",
+  "icon": "🏋️",
+  "isGeneric": false,
+  "location": "Miami Beach, FL",
+  "version": 1,
+  "source": "logtrim/gyms@2026-09-14",
+  "rooms": [
+    {
+      "id": "aerobic-machines-1786026379720",
+      "name": "Aerobic Machines",
+      "machines": [
+        {
+          "id": "m1786026454342",
+          "name": "Elliptical (TechnoGym)",
+          "musclesWorked": "",
+          "image": "m1786026454342.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786026715362",
+          "name": "Stair Master w Cable (TechnoGym)",
+          "musclesWorked": "",
+          "image": "m1786026715362.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027278972",
+          "name": "Treadmill (TechnoGym)",
+          "musclesWorked": "",
+          "image": "m1786027278972.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027312288",
+          "name": "Stationary Bike",
+          "musclesWorked": "",
+          "image": "m1786027312288.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027351545",
+          "name": "Stair Stepper (TechnoGym)",
+          "musclesWorked": "",
+          "image": "m1786027351545.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027400495",
+          "name": "Recumbent Bike (True)",
+          "musclesWorked": "",
+          "image": "m1786027400495.jpg",
+          "logType": "weight"
+        }
+      ]
+    },
+    {
+      "id": "weight-machines-1786026388213",
+      "name": "Weight Machines",
+      "machines": [
+        {
+          "id": "m1786026962087",
+          "name": "Chest Press (True Palladium)",
+          "musclesWorked": "",
+          "image": "m1786026962087.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027001333",
+          "name": "Shoulder Press (True Palladium)",
+          "musclesWorked": "",
+          "image": "m1786027001333.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027045955",
+          "name": "Lat Pulldown (True Palladium)",
+          "musclesWorked": "",
+          "image": "m1786027045955.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027086051",
+          "name": "Pec Fly (True Palladium)",
+          "musclesWorked": "",
+          "image": "m1786027086051.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027107204",
+          "name": "Rear Delt",
+          "musclesWorked": "",
+          "image": "m1786027107204.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027148284",
+          "name": "Leg Press",
+          "musclesWorked": "",
+          "image": "m1786027148284.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027189881",
+          "name": "Seated Leg Curl",
+          "musclesWorked": "",
+          "image": "m1786027189881.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786027213090",
+          "name": "Glute Press",
+          "musclesWorked": "",
+          "image": "m1786027213090.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786029637068",
+          "name": "Leg Extension",
+          "musclesWorked": "",
+          "image": "m1786029637068.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1786029912579",
+          "name": "Knee Lift",
+          "musclesWorked": "",
+          "image": "m1786029912579.jpg",
+          "logType": "weight"
+        }
+      ]
+    }
+  ]
+}
