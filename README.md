@@ -22,8 +22,10 @@ GitHub Pages, create one access token, and you're logging workouts in about
 
 - `index.html` — the app itself
 - `SETUP.md` — new-user setup guide (start here)
-- `equipment/` — gym and machine definitions with images: a generic
-  "Common Machines" set plus some real gyms as worked examples
+- `equipment/` — gym and machine definitions with images. Ships with the
+  generic "Common Machines" set; real gyms are imported from the
+  [gym catalog](https://github.com/logtrim/gyms) inside the app
+  (Settings → Manage Equipment → Import from Gym Catalog)
 - `scripts/garmin_sync.py` + `.github/workflows/garmin-sync.yml` — Garmin
   daily-stats pipeline (opt-in)
 - `cardio-minutes-pipeline/` + `.github/workflows/cardio-minutes.yml` — Garmin
