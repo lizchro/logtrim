@@ -8,3 +8,11 @@ suggested-workout.json
 garmin-recent.json
 z.*/
 *Claude Project Instructions*
+
+# Garmin auth tokens — NEVER commit
+garmin_tokens.json
+
+# Local-only scripts containing credentials
+purge-template.bat
+purge-tokens.bat
+_to_delete/

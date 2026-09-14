@@ -1,0 +1,178 @@
+{
+  "id": "equinox-67th-nyc",
+  "name": "Equinox 67th NYC",
+  "icon": "🌴🌴",
+  "isGeneric": false,
+  "rooms": [
+    {
+      "id": "main",
+      "name": "Cardio machines",
+      "machines": []
+    },
+    {
+      "id": "weight-machines-1787930911975",
+      "name": "Weight Machines",
+      "machines": [
+        {
+          "id": "m1787930967814",
+          "name": "Chest Press (Life Fitness)",
+          "musclesWorked": "",
+          "image": "m1787930967814.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1787930991678",
+          "name": "Shoulder Press",
+          "musclesWorked": "",
+          "image": "m1787930991678.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1787931012328",
+          "name": "Row",
+          "musclesWorked": "",
+          "image": "m1787931012328.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1787931030542",
+          "name": "Pulldown",
+          "musclesWorked": "",
+          "image": "m1787931030542.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1787931097899",
+          "name": "Tricep Press",
+          "musclesWorked": "",
+          "image": "m1787931097899.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1787931121575",
+          "name": "Bicep Press",
+          "musclesWorked": "",
+          "image": "m1787931121575.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1787931386718",
+          "name": "Bosu Leg Lift",
+          "musclesWorked": "",
+          "image": "m1787931386718.jpg",
+          "logType": "weight"
+        }
+      ]
+    },
+    {
+      "id": "5th-floor-machines-1788047845719",
+      "name": "5th Floor Machines",
+      "machines": [
+        {
+          "id": "m1788047901383",
+          "name": "Leg Press",
+          "musclesWorked": "",
+          "image": "m1788047901383.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788047963696",
+          "name": "Leg Curl",
+          "musclesWorked": "",
+          "image": "m1788047963696.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788047997359",
+          "name": "Leg Extension",
+          "musclesWorked": "",
+          "image": "m1788047997359.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788048020857",
+          "name": "Glute Press",
+          "musclesWorked": "",
+          "image": "m1788048020857.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788048070768",
+          "name": "Hip Abduction",
+          "musclesWorked": "",
+          "image": "m1788048070768.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788048150516",
+          "name": "Hip Adduction",
+          "musclesWorked": "",
+          "image": "m1788048150516.jpg",
+          "logType": "weight"
+        }
+      ]
+    },
+    {
+      "id": "5th-floor-free-weight-room-1788049291831",
+      "name": "5th floor free weight room",
+      "machines": [
+        {
+          "id": "m1788049323161",
+          "name": "Adjustable Decline Abdominal Bench",
+          "musclesWorked": "",
+          "image": "m1788049323161.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788049350908",
+          "name": "Reverse Situp",
+          "musclesWorked": "",
+          "image": "m1788049350908.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788049373367",
+          "name": "Leg Lift",
+          "musclesWorked": "",
+          "image": "m1788049373367.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788049577310",
+          "name": "Seated Preacher Curl",
+          "musclesWorked": "",
+          "image": "m1788049577310.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788049634899",
+          "name": "Decline Chest Press",
+          "musclesWorked": "",
+          "image": "m1788049634899.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788049658494",
+          "name": "Incline Chest Press",
+          "musclesWorked": "",
+          "image": "m1788049658494.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788049718127",
+          "name": "Shoulder Press",
+          "musclesWorked": "",
+          "image": "m1788049718127.jpg",
+          "logType": "weight"
+        },
+        {
+          "id": "m1788049941096",
+          "name": "Plate-Loaded Seated Calf Raise",
+          "musclesWorked": "",
+          "image": "m1788049941096.jpg",
+          "logType": "weight"
+        }
+      ]
+    }
+  ]
+}
