@@ -52,5 +52,23 @@
     "incline": null,
     "hr": null,
     "notes": ""
+  },
+  {
+    "machineId": "wall-sits",
+    "machine": "Wall Sits",
+    "gym": "Common Machines",
+    "gymId": "generic",
+    "room": "Bodyweight — No Equipment",
+    "roomId": "bodyweight-no-equipment",
+    "date": "2026-09-14",
+    "datetime": "2026-09-14 06:21:36 PM",
+    "set": 1,
+    "weight": null,
+    "reps": null,
+    "duration": 15,
+    "level": null,
+    "incline": null,
+    "hr": null,
+    "notes": ""
   }
 ]
