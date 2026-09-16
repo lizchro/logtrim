@@ -1,5 +1,23 @@
 [
   {
+    "machineId": "treadmill",
+    "machine": "Treadmill",
+    "gym": "Common Machines",
+    "gymId": "generic",
+    "room": "Cardio",
+    "roomId": "cardio",
+    "date": "2026-09-16",
+    "datetime": "2026-09-16 03:44:50 PM",
+    "set": 1,
+    "weight": null,
+    "reps": null,
+    "duration": 20,
+    "level": 3,
+    "incline": null,
+    "hr": null,
+    "notes": "I could read at same time"
+  },
+  {
     "machineId": "walk",
     "machine": "Walk",
     "gym": "Common Machines",
