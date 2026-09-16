@@ -18,6 +18,24 @@
     "notes": "I could read at same time"
   },
   {
+    "machineId": "wall-sits",
+    "machine": "Wall Sits",
+    "gym": "Common Machines",
+    "gymId": "generic",
+    "room": "Bodyweight — No Equipment",
+    "roomId": "bodyweight-no-equipment",
+    "date": "2026-09-16",
+    "datetime": "2026-09-16 03:45:30 PM",
+    "set": 1,
+    "weight": null,
+    "reps": null,
+    "duration": 20,
+    "level": null,
+    "incline": null,
+    "hr": null,
+    "notes": "Good"
+  },
+  {
     "machineId": "walk",
     "machine": "Walk",
     "gym": "Common Machines",
