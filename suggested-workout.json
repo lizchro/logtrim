@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-09-16",
+  "coachNote": "Full-body session at Equinox: cardio warm-up, legs, and light arm work. Wall sits and leg lifts are nudged up slightly from your last session. Using a seated tricep extension instead of an overhead move to stay easy on your shoulders.",
+  "exercises": [
+    {
+      "machineId": "treadmill",
+      "machine": "Treadmill",
+      "gym": "Equinox",
+      "room": "Cardio",
+      "sets": [
+        {
+          "set": 1,
+          "duration": 20,
+          "level": 3
+        }
+      ],
+      "note": "Steady walk/light jog pace, 20 minutes."
+    },
+    {
+      "machineId": "wall-sits",
+      "machine": "Wall Sits",
+      "gym": "Equinox",
+      "room": "Bodyweight",
+      "sets": [
+        {
+          "set": 1,
+          "duration": 20
+        }
+      ],
+      "note": "Last time you held 15 sec — try 20 today."
+    },
+    {
+      "machineId": "leg-lifts",
+      "machine": "Leg Lifts",
+      "gym": "Equinox",
+      "room": "Bodyweight",
+      "sets": [
+        {
+          "set": 1,
+          "reps": 8
+        }
+      ],
+      "note": "Up from 5 reps last time."
+    },
+    {
+      "machine": "Leg Press",
+      "gym": "Equinox",
+      "room": "Machines",
+      "sets": [
+        {
+          "set": 1,
+          "weight": 70,
+          "reps": 12
+        },
+        {
+          "set": 2,
+          "weight": 70,
+          "reps": 12
+        }
+      ],
+      "note": "No prior data — start light and see how it feels, we can adjust weight next time."
+    },
+    {
+      "machine": "Bicep Curls (Free Weights)",
+      "gym": "Equinox",
+      "room": "Free Weights",
+      "sets": [
+        {
+          "set": 1,
+          "weight": 10,
+          "reps": 12
+        },
+        {
+          "set": 2,
+          "weight": 10,
+          "reps": 12
+        }
+      ],
+      "note": "Start light to gauge — adjust up next session if easy."
+    },
+    {
+      "machine": "Seated Tricep Extension",
+      "gym": "Equinox",
+      "room": "Free Weights",
+      "sets": [
+        {
+          "set": 1,
+          "weight": 8,
+          "reps": 12
+        },
+        {
+          "set": 2,
+          "weight": 8,
+          "reps": 12
+        }
+      ],
+      "note": "Seated/low position, not overhead — easier on your shoulders."
+    },
+    {
+      "machineId": "squats",
+      "machine": "Squats",
+      "gym": "Equinox",
+      "room": "Bodyweight",
+      "sets": [
+        {
+          "set": 1,
+          "reps": 12
+        }
+      ],
+      "note": "Up from 10 reps last time."
+    }
+  ]
+}
