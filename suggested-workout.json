@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-16",
-  "coachNote": "Full-body session at Equinox: cardio warm-up, legs, and light arm work. Wall sits and leg lifts are nudged up slightly from your last session. Using a seated tricep extension instead of an overhead move to stay easy on your shoulders.",
+  "coachNote": "Full-body at Equinox: cardio, legs, light arms. Seated tricep extension instead of overhead to protect your shoulders.",
   "exercises": [
     {
       "machineId": "treadmill",
@@ -14,7 +14,7 @@
           "level": 3
         }
       ],
-      "note": "Steady walk/light jog pace, 20 minutes."
+      "note": "Steady pace, 20 min."
     },
     {
       "machineId": "wall-sits",
@@ -27,7 +27,7 @@
           "duration": 20
         }
       ],
-      "note": "Last time you held 15 sec — try 20 today."
+      "note": "Up from 15 sec."
     },
     {
       "machineId": "leg-lifts",
@@ -40,7 +40,7 @@
           "reps": 8
         }
       ],
-      "note": "Up from 5 reps last time."
+      "note": "Up from 5 reps."
     },
     {
       "machine": "Leg Press",
@@ -58,10 +58,10 @@
           "reps": 12
         }
       ],
-      "note": "No prior data — start light and see how it feels, we can adjust weight next time."
+      "note": "Start light."
     },
     {
-      "machine": "Bicep Curls (Free Weights)",
+      "machine": "Bicep Curls",
       "gym": "Equinox",
       "room": "Free Weights",
       "sets": [
@@ -76,7 +76,7 @@
           "reps": 12
         }
       ],
-      "note": "Start light to gauge — adjust up next session if easy."
+      "note": "Start light."
     },
     {
       "machine": "Seated Tricep Extension",
@@ -94,7 +94,7 @@
           "reps": 12
         }
       ],
-      "note": "Seated/low position, not overhead — easier on your shoulders."
+      "note": "Not overhead."
     },
     {
       "machineId": "squats",
@@ -107,7 +107,7 @@
           "reps": 12
         }
       ],
-      "note": "Up from 10 reps last time."
+      "note": "Up from 10 reps."
     }
   ]
 }
