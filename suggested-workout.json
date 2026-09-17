@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-16",
-  "coachNote": "Full-body at Equinox: cardio, legs, light arms. Seated tricep extension instead of overhead to protect your shoulders.",
+  "coachNote": "Full-body at Equinox: cardio, legs, light arms. Tricep pulldown (not overhead) to protect your shoulders.",
   "exercises": [
     {
       "machineId": "treadmill",
@@ -20,7 +20,7 @@
       "machineId": "wall-sits",
       "machine": "Wall Sits",
       "gym": "Equinox",
-      "room": "Bodyweight",
+      "room": "Bodyweight — No Equipment",
       "sets": [
         {
           "set": 1,
@@ -33,7 +33,7 @@
       "machineId": "leg-lifts",
       "machine": "Leg Lifts",
       "gym": "Equinox",
-      "room": "Bodyweight",
+      "room": "Bodyweight — No Equipment",
       "sets": [
         {
           "set": 1,
@@ -43,9 +43,10 @@
       "note": "Up from 5 reps."
     },
     {
+      "machineId": "leg-press",
       "machine": "Leg Press",
       "gym": "Equinox",
-      "room": "Machines",
+      "room": "Selectorized Machines",
       "sets": [
         {
           "set": 1,
@@ -61,7 +62,8 @@
       "note": "Start light."
     },
     {
-      "machine": "Bicep Curls",
+      "machineId": "standing-dumbbell-curl",
+      "machine": "Standing Dumbbell Curl",
       "gym": "Equinox",
       "room": "Free Weights",
       "sets": [
@@ -79,9 +81,10 @@
       "note": "Start light."
     },
     {
-      "machine": "Seated Tricep Extension",
+      "machineId": "tricep-pulldown-extension",
+      "machine": "Tricep Pulldown Extension",
       "gym": "Equinox",
-      "room": "Free Weights",
+      "room": "Selectorized Machines",
       "sets": [
         {
           "set": 1,
@@ -100,7 +103,7 @@
       "machineId": "squats",
       "machine": "Squats",
       "gym": "Equinox",
-      "room": "Bodyweight",
+      "room": "Bodyweight — No Equipment",
       "sets": [
         {
           "set": 1,
