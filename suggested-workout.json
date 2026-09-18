@@ -1,116 +1,34 @@
 {
-  "generatedAt": "2026-09-16",
-  "coachNote": "Full-body at Equinox: cardio, legs, light arms. Tricep pulldown (not overhead) to protect your shoulders.",
+  "generatedAt": "2026-09-18",
+  "coachNote": "Travel-day session: a 15-minute walk plus bodyweight squats to keep things moving.",
   "exercises": [
     {
-      "machineId": "treadmill",
-      "machine": "Treadmill",
-      "gym": "Equinox",
-      "room": "Cardio",
+      "machineId": "walk",
+      "machine": "Walk",
+      "gym": "Generic",
+      "room": "Outdoor Activities",
       "sets": [
         {
           "set": 1,
-          "duration": 20,
-          "level": 3
+          "duration": 15
         }
-      ],
-      "note": "Steady pace, 20 min."
-    },
-    {
-      "machineId": "wall-sits",
-      "machine": "Wall Sits",
-      "gym": "Equinox",
-      "room": "Bodyweight — No Equipment",
-      "sets": [
-        {
-          "set": 1,
-          "duration": 20
-        }
-      ],
-      "note": "Up from 15 sec."
-    },
-    {
-      "machineId": "leg-lifts",
-      "machine": "Leg Lifts",
-      "gym": "Equinox",
-      "room": "Bodyweight — No Equipment",
-      "sets": [
-        {
-          "set": 1,
-          "reps": 8
-        }
-      ],
-      "note": "Up from 5 reps."
-    },
-    {
-      "machineId": "leg-press",
-      "machine": "Leg Press",
-      "gym": "Equinox",
-      "room": "Selectorized Machines",
-      "sets": [
-        {
-          "set": 1,
-          "weight": 70,
-          "reps": 12
-        },
-        {
-          "set": 2,
-          "weight": 70,
-          "reps": 12
-        }
-      ],
-      "note": "Start light."
-    },
-    {
-      "machineId": "standing-dumbbell-curl",
-      "machine": "Standing Dumbbell Curl",
-      "gym": "Equinox",
-      "room": "Free Weights",
-      "sets": [
-        {
-          "set": 1,
-          "weight": 10,
-          "reps": 12
-        },
-        {
-          "set": 2,
-          "weight": 10,
-          "reps": 12
-        }
-      ],
-      "note": "Start light."
-    },
-    {
-      "machineId": "tricep-pulldown-extension",
-      "machine": "Tricep Pulldown Extension",
-      "gym": "Equinox",
-      "room": "Selectorized Machines",
-      "sets": [
-        {
-          "set": 1,
-          "weight": 8,
-          "reps": 12
-        },
-        {
-          "set": 2,
-          "weight": 8,
-          "reps": 12
-        }
-      ],
-      "note": "Not overhead."
+      ]
     },
     {
       "machineId": "squats",
       "machine": "Squats",
-      "gym": "Equinox",
-      "room": "Bodyweight — No Equipment",
+      "gym": "Generic",
+      "room": "Bodyweight \u2014 No Equipment",
       "sets": [
         {
           "set": 1,
-          "reps": 12
+          "reps": 10
+        },
+        {
+          "set": 2,
+          "reps": 10
         }
-      ],
-      "note": "Up from 10 reps."
+      ]
     }
   ]
 }
