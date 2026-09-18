@@ -11,8 +11,9 @@ GitHub Pages, create one access token, and you're logging workouts in about
 ## Optional extras (all covered in SETUP.md)
 
 - **Claude as your workout coach** — connect a Claude Project that reads your
-  workout history, suggests sessions, and can push plans into the app as
-  "Today's Plan" (via a small free Cloudflare Worker).
+  workout history, suggests sessions, and writes plans into the app as
+  "Today's Plan". It uses the same access token the app already uses; there is
+  nothing extra to deploy.
 - **Garmin integration** — scheduled GitHub Actions that pull your daily Garmin
   stats (`garmin-recent.json`) and per-minute heart-rate data
   (`cardio-minutes.csv`) into your repo. Off by default; enabled with one
@@ -30,8 +31,10 @@ GitHub Pages, create one access token, and you're logging workouts in about
   daily-stats pipeline (opt-in)
 - `cardio-minutes-pipeline/` + `.github/workflows/cardio-minutes.yml` — Garmin
   per-minute heart-rate pipeline (opt-in)
-- `worker.js` — optional Cloudflare Worker that lets Claude push plans into the app
 - `Project-Instructions-Template.md` — starting point for your Claude coach Project
+- `worker.js` — optional Cloudflare Worker relay. Not needed for normal setup;
+  it exists for people who would rather Claude never hold a GitHub token. See
+  the note at the end of Part 2 in SETUP.md.
 
 ## License
 
