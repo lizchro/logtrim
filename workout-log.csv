@@ -1,5 +1,6 @@
 datetime,gym,room,machine,machineId,set,weight,reps,duration,level,incline,hr,notes,zone1,zone2,zone3,zone4,zone5
 2026-09-18 08:54:07 PM,Common Machines,Classes,Zumba,zumba-class,1,,,60,,,,,,,,,
+2026-09-18 08:54:18 PM,Common Machines,Classes,Strength Training,strength-training-class,1,,,,,,,,,,,,
 2026-09-16 03:44:50 PM,Common Machines,Cardio,Treadmill,treadmill,1,,,20,3,,,I could read at same time,,,,,
 2026-09-16 03:45:30 PM,Common Machines,Bodyweight — No Equipment,Wall Sits,wall-sits,1,,,20,,,,Good,,,,,
 2026-09-16 03:47:25 PM,Common Machines,Bodyweight — No Equipment,Leg Lifts,leg-lifts,1,,8,,,,,Fine - easy,,,,,
