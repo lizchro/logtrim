@@ -162,6 +162,24 @@
     "notes": ""
   },
   {
+    "machineId": "pw03",
+    "machine": "Seated Cable Row Machine",
+    "gym": "Portofino Gym",
+    "gymId": "portofino",
+    "room": "Weight Room",
+    "roomId": "weights",
+    "date": "2026-09-20",
+    "datetime": "2026-09-20 11:44:39 AM",
+    "set": 1,
+    "weight": 25,
+    "reps": 8,
+    "duration": null,
+    "level": null,
+    "incline": null,
+    "hr": null,
+    "notes": ""
+  },
+  {
     "machineId": "zumba-class",
     "machine": "Zumba",
     "gym": "Common Machines",
