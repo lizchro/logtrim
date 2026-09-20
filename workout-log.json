@@ -198,6 +198,24 @@
     "notes": ""
   },
   {
+    "machineId": "standing-dumbbell-curl",
+    "machine": "Standing Dumbbell Curl",
+    "gym": "Common Machines",
+    "gymId": "generic",
+    "room": "Free Weights",
+    "roomId": "free-weights",
+    "date": "2026-09-20",
+    "datetime": "2026-09-20 11:45:43 AM",
+    "set": 1,
+    "weight": 5,
+    "reps": 10,
+    "duration": null,
+    "level": null,
+    "incline": null,
+    "hr": null,
+    "notes": ""
+  },
+  {
     "machineId": "zumba-class",
     "machine": "Zumba",
     "gym": "Common Machines",
