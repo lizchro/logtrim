@@ -108,6 +108,24 @@
     "notes": ""
   },
   {
+    "machineId": "pm15",
+    "machine": "Power Plate Vibration Platform",
+    "gym": "Portofino Gym",
+    "gymId": "portofino",
+    "room": "Machines Room",
+    "roomId": "machines",
+    "date": "2026-09-20",
+    "datetime": "2026-09-20 11:30:09 AM",
+    "set": 2,
+    "weight": 50,
+    "reps": 30,
+    "duration": null,
+    "level": null,
+    "incline": null,
+    "hr": null,
+    "notes": ""
+  },
+  {
     "machineId": "zumba-class",
     "machine": "Zumba",
     "gym": "Common Machines",
