@@ -1,5 +1,7 @@
 datetime,gym,room,machine,machineId,set,weight,reps,duration,level,incline,hr,notes,zone1,zone2,zone3,zone4,zone5
 2026-09-20 11:22:07 AM,Common Machines,Classes,Pilates Reformer,pilates-reformer-class,1,,,50,,,,,,,,,
+2026-09-20 11:25:31 AM,Portofino Gym,Machines Room,Seated Chest Press Machine,pm03,1,10,8,,,,,,,,,,
+2026-09-20 11:25:31 AM,Portofino Gym,Machines Room,Seated Chest Press Machine,pm03,2,10,8,,,,,,,,,,
 2026-09-19 08:57:21 PM,Common Machines,Classes,Zumba,zumba-class,1,,,60,,,,,,,,,
 2026-09-19 08:57:27 PM,Common Machines,Classes,Strength Training,strength-training-class,1,,,,,,,,,,,,
 2026-09-19 08:57:54 PM,Common Machines,Bodyweight — No Equipment,Squats,squats,1,,10,,,,,,,,,,
