@@ -18,6 +18,24 @@
     "notes": ""
   },
   {
+    "machineId": "strength-training-class",
+    "machine": "Strength Training",
+    "gym": "Common Machines",
+    "gymId": "generic",
+    "room": "Classes",
+    "roomId": "classes",
+    "date": "2026-09-19",
+    "datetime": "2026-09-19 08:57:27 PM",
+    "set": 1,
+    "weight": null,
+    "reps": null,
+    "duration": null,
+    "level": null,
+    "incline": null,
+    "hr": null,
+    "notes": ""
+  },
+  {
     "machineId": "zumba-class",
     "machine": "Zumba",
     "gym": "Common Machines",
