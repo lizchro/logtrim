@@ -72,6 +72,24 @@
     "notes": ""
   },
   {
+    "machineId": "pm13",
+    "machine": "Seated Abdominal Crunch Machine",
+    "gym": "Portofino Gym",
+    "gymId": "portofino",
+    "room": "Machines Room",
+    "roomId": "machines",
+    "date": "2026-09-20",
+    "datetime": "2026-09-20 11:27:52 AM",
+    "set": 1,
+    "weight": 10,
+    "reps": 8,
+    "duration": null,
+    "level": null,
+    "incline": null,
+    "hr": null,
+    "notes": ""
+  },
+  {
     "machineId": "zumba-class",
     "machine": "Zumba",
     "gym": "Common Machines",
