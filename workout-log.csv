@@ -8,6 +8,7 @@ datetime,gym,room,machine,machineId,set,weight,reps,duration,level,incline,hr,no
 2026-09-20 11:30:09 AM,Portofino Gym,Machines Room,Power Plate Vibration Platform,pm15,2,50,30,,,,,,,,,,
 2026-09-20 11:32:12 AM,Portofino Gym,Machines Room,Seated Leg Extension Machine,pm05,1,25,8,,,,,,,,,,
 2026-09-20 11:32:12 AM,Portofino Gym,Machines Room,Seated Leg Extension Machine,pm05,2,25,8,,,,,,,,,,
+2026-09-20 11:44:39 AM,Portofino Gym,Weight Room,Seated Cable Row Machine,pw03,1,25,8,,,,,,,,,,
 2026-09-19 08:57:21 PM,Common Machines,Classes,Zumba,zumba-class,1,,,60,,,,,,,,,
 2026-09-19 08:57:27 PM,Common Machines,Classes,Strength Training,strength-training-class,1,,,,,,,,,,,,
 2026-09-19 08:57:54 PM,Common Machines,Bodyweight — No Equipment,Squats,squats,1,,10,,,,,,,,,,
