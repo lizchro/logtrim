@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-18",
-  "coachNote": "Travel-day session: a 15-minute walk plus bodyweight squats to keep things moving.",
+  "generatedAt": "2026-09-19",
+  "coachNote": "Quick recovery day: a 10-minute walk plus 10 minutes of meditation.",
   "exercises": [
     {
       "machineId": "walk",
@@ -10,25 +10,21 @@
       "sets": [
         {
           "set": 1,
-          "duration": 15
+          "duration": 10
         }
       ]
     },
     {
-      "machineId": "squats",
-      "machine": "Squats",
+      "machine": "Meditation",
       "gym": "Generic",
-      "room": "Bodyweight \u2014 No Equipment",
+      "room": "Common",
       "sets": [
         {
           "set": 1,
-          "reps": 10
-        },
-        {
-          "set": 2,
-          "reps": 10
+          "duration": 10
         }
-      ]
+      ],
+      "note": "First time logging this one \u2014 no machineId yet."
     }
   ]
 }
