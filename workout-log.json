@@ -72,6 +72,24 @@
     "notes": ""
   },
   {
+    "machineId": "meditation",
+    "machine": "Meditation",
+    "gym": "Common Machines",
+    "gymId": "generic",
+    "room": "Bodyweight — No Equipment",
+    "roomId": "bodyweight-no-equipment",
+    "date": "2026-09-19",
+    "datetime": "2026-09-19 09:02:11 PM",
+    "set": 1,
+    "weight": null,
+    "reps": null,
+    "duration": 10,
+    "level": null,
+    "incline": null,
+    "hr": null,
+    "notes": ""
+  },
+  {
     "machineId": "zumba-class",
     "machine": "Zumba",
     "gym": "Common Machines",
